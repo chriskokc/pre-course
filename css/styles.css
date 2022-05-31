@@ -4,6 +4,7 @@
   color: #243A73;
 }
 
-h1 {
-  color: #42C2FF;
+a:link,
+a:visited {
+  text-decoration: none;
 }

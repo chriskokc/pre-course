@@ -1,11 +1,18 @@
 
-$primary-color: #243A73;
-$secondary-color: #42C2FF;
-$button-white: #fff;
-$footer-yellow: #FFF7BC;
+$color-primary: #243A73;
+$color-secondary: #42C2FF;
+$color-white: #fff;
+$color-yellow: #FFF7BC;
 
 * {
     margin: 0;
     padding: 0;
-    color: $primary-color;
+    color: $color-primary;
 }
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+
