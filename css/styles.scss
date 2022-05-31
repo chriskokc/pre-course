@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans&family=M+PLUS+Rounded+1c:wght@700&display=swap');
 
 $color-primary: #243A73;
 $color-secondary: #42C2FF;
 $color-white: #fff;
 $color-yellow: #FFF7BC;
+$font-logo: 'Boogaloo', cursive;
+$font-main: 'IBM Plex Sans', sans-serif;
+$font-slogan: 'M PLUS Rounded 1c', sans-serif;
+
 
 * {
     margin: 0;
     padding: 0;
     color: $color-primary;
+    font-family: $font-main;
 }
 
 a:link,

@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans&family=M+PLUS+Rounded+1c:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
   color: #243A73;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 a:link,
