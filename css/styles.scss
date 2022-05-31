@@ -8,10 +8,12 @@ $font-logo: 'Boogaloo', cursive;
 $font-main: 'IBM Plex Sans', sans-serif;
 $font-slogan: 'M PLUS Rounded 1c', sans-serif;
 
+// base
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     color: $color-primary;
     font-family: $font-main;
 }
@@ -19,6 +21,44 @@ $font-slogan: 'M PLUS Rounded 1c', sans-serif;
 a:link,
 a:visited {
     text-decoration: none;
+}
+
+// Navigation bar
+
+nav {
+     height: 20vh;
+     display: flex;
+     justify-content: space-between;
+     border: 1px solid green; 
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    max-width: 40%;
+    max-height: 100%;
+}
+
+.logo-text {
+    font-family: $font-logo;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.login-btn {
+    display: block;
+    width: 10%;
+    height: 50%;
+    border: 2px solid $color-primary;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: auto 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 
