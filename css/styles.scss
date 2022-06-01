@@ -11,13 +11,13 @@ $font-slogan: 'M PLUS Rounded 1c', sans-serif;
 
 // base
 
-* {
+body {
     box-sizing: border-box;
     color: $color-primary;
     font-family: $font-main;
     margin: 0;
-    padding: 0;
-    // text-align: center;
+    padding: 20px 15px;
+    text-align: center;
 }
 
 a:link,
@@ -29,7 +29,6 @@ a:visited {
 .large-heading {
     font-weight: bold;
     font-size: 2.8rem;
-    margin-top: 10%;
 }
 
 // Components
@@ -92,10 +91,12 @@ nav {
 
 .intro {
     // border: 1px solid green;
-    text-align: center;
-
     p {
         font-size: 1.8rem;
+    }
+
+    img {
+        margin-bottom: 10%;
     }
 }
 
@@ -108,14 +109,24 @@ nav {
 
 // Features section
 
-.features {
-    border: 1px solid green;
+#features {
+    // border: 1px solid green;
+    padding: 0 15px;
 }
 
 .features-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.8rem;
+}
+
+.keywords {
+    font-weight: bold;
+}
+
+.supporting-text {
+    font-style: italic;
 }
 
 

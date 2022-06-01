@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans&family=M+PLUS+Rounded+1c:wght@700&display=swap");
-* {
+body {
   box-sizing: border-box;
   color: #243A73;
   font-family: "IBM Plex Sans", sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 20px 15px;
+  text-align: center;
 }
 
 a:link,
@@ -15,7 +16,6 @@ a:visited {
 .large-heading {
   font-weight: bold;
   font-size: 2.8rem;
-  margin-top: 10%;
 }
 
 .large-btn {
@@ -67,11 +67,11 @@ nav {
   font-size: 1.5rem;
 }
 
-.intro {
-  text-align: center;
-}
 .intro p {
   font-size: 1.8rem;
+}
+.intro img {
+  margin-bottom: 10%;
 }
 
 .slogan-text {
@@ -81,12 +81,22 @@ nav {
   margin: 10% 0;
 }
 
-.features {
+#features {
   border: 1px solid green;
+  padding: 0 15px;
 }
 
 .features-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.8rem;
+}
+
+.keywords {
+  font-weight: bold;
+}
+
+.supporting-text {
+  font-style: italic;
 }
