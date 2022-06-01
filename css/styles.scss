@@ -16,7 +16,7 @@ body {
     color: $color-primary;
     font-family: $font-main;
     margin: 0;
-    padding: 20px 15px;
+    padding: 20px 0 0;
     text-align: center;
 }
 
@@ -129,4 +129,19 @@ nav {
     font-style: italic;
 }
 
+// Footer section
+
+footer {
+    background-color: $color-yellow;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-link {
+    color: $color-primary;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
 
