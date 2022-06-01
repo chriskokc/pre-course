@@ -90,8 +90,13 @@ nav {
 
 .intro {
     // border: 1px solid green;
+
+    padding: 0 8%;
+
     p {
         font-size: 1.8rem;
+        line-height: 1.5;
+        margin: 0 auto;
     }
 
     img {
@@ -110,7 +115,7 @@ nav {
 
 #features {
     // border: 1px solid green;
-    padding: 0 15px;
+    padding: 0 8%;
 }
 
 .features-row {
