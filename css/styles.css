@@ -116,3 +116,44 @@ footer {
   font-size: 1.8rem;
   font-weight: bold;
 }
+
+@media (max-width: 480px) {
+  .login-btn {
+    font-size: 1rem;
+  }
+
+  .logo-text {
+    font-size: 2.5rem;
+  }
+
+  .intro p {
+    font-size: 1.5rem;
+  }
+  .intro img {
+    width: 60%;
+    height: 80%;
+  }
+
+  .slogan-text {
+    font-size: 1.8rem;
+  }
+
+  .large-btn {
+    font-size: 1.2rem;
+  }
+
+  .large-heading {
+    font-size: 2rem;
+  }
+
+  .features-row {
+    font-size: 1rem;
+  }
+  .features-row img {
+    width: 30%;
+  }
+
+  .footer-link {
+    font-size: 1.2rem;
+  }
+}

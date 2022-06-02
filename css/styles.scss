@@ -67,7 +67,6 @@ nav {
      height: 20vh;
      display: flex;
      justify-content: space-between;
-    //  border: 1px solid green; 
 }
 
 .logo-container {
@@ -89,8 +88,6 @@ nav {
 // Header section
 
 .intro {
-    // border: 1px solid green;
-
     padding: 0 8%;
 
     p {
@@ -114,7 +111,6 @@ nav {
 // Features section
 
 #features {
-    // border: 1px solid green;
     padding: 0 8%;
 }
 
@@ -151,3 +147,53 @@ footer {
     font-weight: bold;
 }
 
+// Media Queries
+
+// the following applies when the screen condition is reduced to and below 480px 
+// i.e most mobile phones device-width
+
+@media (max-width: 480px) {
+
+    .login-btn {
+        font-size: 1rem;
+    }
+
+    .logo-text {
+        font-size: 2.5rem;
+    }
+
+    .intro {
+        p {
+            font-size: 1.5rem;
+        }
+        img {
+            width: 60%;
+            height: 80%;
+        }
+    }
+
+    .slogan-text {
+        font-size: 1.8rem;
+    }
+
+    .large-btn {
+        font-size: 1.2rem;
+    }
+
+    .large-heading {
+        font-size: 2rem;
+    }
+
+    .features-row {
+        font-size: 1rem;
+
+        img {
+            width: 30%;
+        }
+    }
+
+    .footer-link {
+        font-size: 1.2rem;
+    }
+
+}
