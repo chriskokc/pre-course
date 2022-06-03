@@ -107,8 +107,8 @@ footer {
   background-color: #fefad6;
   height: 25vh;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: 5%;
   padding: 2% 0;
 }
@@ -153,6 +153,10 @@ footer {
   }
   .features-row img {
     width: 30%;
+  }
+
+  footer {
+    flex-direction: column;
   }
 
   .footer-link {
