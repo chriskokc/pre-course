@@ -85,7 +85,7 @@ nav {
 }
 
 #features {
-  padding: 0 8%;
+  padding: 0 12%;
 }
 
 .features-row {
@@ -93,6 +93,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-size: 1.6rem;
+  text-align: left;
 }
 
 .keywords {
