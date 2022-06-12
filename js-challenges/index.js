@@ -24,6 +24,7 @@ function convertDaysToAge(numberOfDays) {
 console.log(convertDaysToAge(3650)); // returns 10
 console.log(convertDaysToAge(6570)); // returns 18
 
+
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
 function getLargestNumber(num1, num2, num3) {
     let numberArray = [num1, num2, num3];
@@ -43,3 +44,18 @@ function getLargestNumber(num1, num2, num3) {
 console.log(getLargestNumber(2, 1, 4)); // returns 4
 console.log(getLargestNumber(6, 2, 3)); // returns 6
 console.log(getLargestNumber(-2, 0, -100)); // returns 0
+
+
+// 4. Write a function that takes an array of names and returns the last name from the array of names.
+function getLastName(listOfNames) {
+    if (Array.isArray(listOfNames)) {
+        const lastName = listOfNames[listOfNames.length - 1];
+        return lastName;
+    } else {
+        return "The input should be an array of names."
+    }
+}
+
+console.log(getLastName(["Charlie", "Rob", "Andy"])); // returns "Andy"
+console.log(getLastName(["Ash","Stu"])); // returns "Stu"
+console.log(getLastName("Ben")); // returns "The input should be an array of names."
