@@ -59,3 +59,36 @@ function getLastName(listOfNames) {
 console.log(getLastName(["Charlie", "Rob", "Andy"])); // returns "Andy"
 console.log(getLastName(["Ash","Stu"])); // returns "Stu"
 console.log(getLastName("Ben")); // returns "The input should be an array of names."
+
+
+// 5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. 
+// It should return false if there are one or more negative numbers in the array.
+function allNumbersPositive(listOfNums) {
+    if (Array.isArray(listOfNums)) {
+
+        // loop through all the items in the array
+        for (let i = 0; i < listOfNums.length; i++) {
+            // check if the item is a valid number
+            if (typeof(listOfNums[i]) != "number") {
+                return "The input should be of type number.";
+            }
+            // check if the number is zero or negative
+            else if (listOfNums[i] <= 0) {
+                return false;
+            } 
+        }
+
+        // return true if the input pass the above validation, i.e all of the numbers are positive 
+        return true;
+
+    } else {
+        return "The input should be an array of numbers."
+    }
+}
+
+console.log(allNumbersPositive([2, 4, 5])); // returns true
+console.log(allNumbersPositive([-5, 4, 6])); // returns false
+console.log(allNumbersPositive([25, 21, 0])); // returns false
+console.log(allNumbersPositive([-1, -2])); // returns false
+console.log(allNumbersPositive(30)); // returns "The input should be an array of numbers."
+console.log(allNumbersPositive(["one", "ten"])); // returns "The input should of type number."
