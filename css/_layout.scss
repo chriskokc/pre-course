@@ -1,0 +1,42 @@
+// Layout for different sections
+
+// Navigation bar
+
+nav {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 0;
+}
+
+.logo-container {
+   display: flex;
+   align-items: center;
+}
+
+// Features section
+
+#features {
+    padding: 0 12%;
+}
+
+.features-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+
+// Footer section
+
+footer {
+    background-color: $color-yellow;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    padding: 2% 0;
+}

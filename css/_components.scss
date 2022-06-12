@@ -1,0 +1,150 @@
+// Components
+
+// Heading
+
+.large-heading {
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+// Large button 
+
+.large-btn {
+    // border: 1px solid black;
+    display: inline-block;
+    background-color: $color-primary;
+    border-radius: 10px;
+    color: $color-white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2.5% 10%;
+    margin: 10% auto;
+}
+
+// Login button
+
+.login-btn {
+    display: inline-block;
+    border: 2px solid $color-primary;
+    border-radius: 10px;
+    padding: 2% 4%;
+    margin: auto 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+// Components in Navigation bar
+
+.logo-img {
+    max-width: 40%;
+    max-height: 100%;
+}
+
+.logo-text {
+    font-family: $font-logo;
+    font-size: 5rem;
+    margin: 0;
+}
+
+
+// Header section
+
+.intro {
+    padding: 0 8%;
+
+    p {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        margin: 15px auto;
+    }
+
+    img {
+        margin-bottom: 10%;
+        width: 45%;
+    }
+}
+
+.slogan-text {
+    color: $color-secondary;
+    font-family: $font-slogan;
+    font-size: 2rem;
+    margin: 7% 0;
+}
+
+
+// Features section
+
+.keywords {
+    font-weight: bold;
+}
+
+.supporting-text {
+    font-style: italic;
+}
+
+// Footer section
+
+.footer-link {
+    color: $color-primary;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+// Media Queries
+
+// the following applies when the screen condition is reduced to and below 480px 
+// i.e most mobile phones device-width
+
+@media (max-width: 480px) {
+
+    .login-btn {
+        font-size: 1rem;
+    }
+
+    .logo-text {
+        font-size: 2.5rem;
+    }
+
+    .intro {
+        p {
+            font-size: 1.5rem;
+        }
+        img {
+            width: 60%;
+            height: 80%;
+        }
+    }
+
+    .slogan-text {
+        font-size: 1.8rem;
+    }
+
+    .large-btn {
+        font-size: 1.2rem;
+    }
+
+    .large-heading {
+        font-size: 2rem;
+    }
+
+    .features-row {
+        font-size: 1rem;
+
+        img {
+            width: 30%;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-link {
+        font-size: 1.2rem;
+    }
+
+}
